@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Entry</title>
+</head>
+
+<body>
+    <h1>Add Entry</h1>
+    <form action="../add" method="post">
+        <table>
+            <tr>
+                <th><label for="name">Name</label></th>
+                <td><input id="name" type="text" name="name" placeholder="Neeraj Almonds" required></td>
+            </tr>
+            <tr>
+                <th><label for="">Cost</label></th>
+                <td><input type="number" step="0.01" name="cost" placeholder="80.33" required></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="submit" value="add"></td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+    <a href="../index.html">Home</a>
+
+</body>
+
+</html>
